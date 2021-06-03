@@ -1,0 +1,6 @@
+framework module Pods_FuncSwift_Example {
+  umbrella header "Pods-FuncSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

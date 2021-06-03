@@ -1,0 +1,16 @@
+PODS:
+  - FuncSwift (0.1.0)
+
+DEPENDENCIES:
+  - FuncSwift (from `../`)
+
+EXTERNAL SOURCES:
+  FuncSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FuncSwift: 4c5f01b95dd807efb5e3f3b8896563fdcb0c3bc8
+
+PODFILE CHECKSUM: 02629ade2d897a0ee680d108d635200fe4aeac0f
+
+COCOAPODS: 1.9.3

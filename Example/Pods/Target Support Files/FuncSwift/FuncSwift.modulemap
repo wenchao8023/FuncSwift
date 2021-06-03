@@ -1,0 +1,6 @@
+framework module FuncSwift {
+  umbrella header "FuncSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

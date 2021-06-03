@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wenchao8023/FuncSwift'
+  s.homepage         = 'https://github.com/wenchao8023/CwenSpec.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wenchao8023' => '15629120502@163.com' }
@@ -39,4 +39,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  subspec 'BattleShip' do |sp|
+    sp.source_files = 'Classes/BattleShip/**/*'
+  end
+
 end
